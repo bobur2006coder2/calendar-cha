@@ -76,7 +76,8 @@
     align-items: center;
 }
 
-.days :hover{
+.days div:hover:not(.empty){
+    border: 2px solid rgb(39, 211, 157);
     cursor: pointer;
 }
 
