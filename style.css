@@ -76,8 +76,7 @@
     align-items: center;
 }
 
-.days div:hover:not(.empty){
-    border: 2px solid gray;
+.days :hover{
     cursor: pointer;
 }
 
